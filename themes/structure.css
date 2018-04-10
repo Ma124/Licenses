@@ -1,0 +1,16 @@
+small.license {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: inherit; }
+
+small.license .copyright {
+  color: #FB8C00; }
+small.license .credits {
+  color: #00897B; }
+small.license .permissions {
+  color: #7CB342; }
+small.license .conditions {
+  color: #1E88E5; }
+small.license .warranty {
+  color: #D81B60; }
+small.license .reserve-name {
+  color: #F4511E; }

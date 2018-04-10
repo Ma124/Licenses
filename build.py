@@ -40,38 +40,40 @@ f.close()
 
 # == Read templates == #
 
-# == Reading meta & css == #
+# == Reading meta == #
 meta = ConfigParser()
 meta._interpolation = ExtendedInterpolation()
 meta.read('meta.ini')
-
-f = open('themes/' + 'default' + '.css')
-style = f.read()
-f.close()
-# == Read meta & css == #
+# == Read meta == #
 
 index = ''
 
 # == Generating pages == #
-for root, subdirs, files in os.walk('html'):
-    for f in files:
-        if not f.endswith('.html') or f == 'index.html':
-            continue
-        model = dict()
+for style_name in ['default', 'structure']:
+    f = open('themes/' + style_name + '.css')
+    style = f.read()
+    f.close()
 
-        fo = open('html/' + f, 'r')
-        model['license_text'] = fo.read()
-        fo.close()
+    for root, subdirs, files in os.walk('html'):
+        for f in files:
+            if not f.endswith('.html') or f == 'index.html':
+                continue
+            model = dict()
 
-        id = model['license_id'] = get_name(f)
-        model['license_name'] = meta[id]['name']
-        model['style'] = style
+            fo = open('html/' + f, 'r')
+            model['license_text'] = fo.read()
+            fo.close()
 
-        index += tmpl_index_item.substitute(model)
+            id = model['license_id'] = get_name(f)
+            model['license_name'] = meta[id]['name']
+            model['style'] = style
+            model['style_name'] = style_name
 
-        fo = open('page/' + get_name(f) + '.html', 'w')
-        fo.write(tmpl_page.substitute(model))
-        fo.close()
+            index += tmpl_index_item.substitute(model)
+
+            fo = open('page/' + get_name(f) + ('' if style_name == 'default' else ('_' + style_name)) + '.html', 'w')
+            fo.write(tmpl_page.substitute(model))
+            fo.close()
 # == Generated pages == #
 
 # == Generating readme == #
