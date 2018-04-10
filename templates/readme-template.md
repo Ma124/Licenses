@@ -26,3 +26,5 @@ This repository contains all kinds of original and modified licenses.
 | `templates/` | contains templates ([PEP 292](https://www.python.org/dev/peps/pep-0292/)) (used by `build.py`) |
 | `themes/` | contains stylesheets that are automatically included in every *page* but it can also manually applied to *html*. |
 | `txt/` | contains the licenses in textual representation |
+
+<a href="https://github.com/Ma124/Licenses">Look at the source</a>
