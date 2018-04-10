@@ -76,6 +76,18 @@ for style_name in ['default', 'structure']:
             fo.close()
 # == Generated pages == #
 
+# == Generating indexes == #
+index = tmpl_index.substitute({'items': index})
+
+f = open('page/index.html', 'w')
+f.write(index)
+f.close()
+
+f = open('html/index.html', 'w')
+f.write(index)
+f.close()
+# == Generated indexes == #
+
 # == Generating readme == #
 index = ''
 
@@ -102,15 +114,3 @@ f.write(tmpl_readme.substitute({'index_items': index}))
 f.close()
 
 # == Generated readme == #
-
-# == Generating indexes == #
-index = tmpl_index.substitute({'items': index})
-
-f = open('page/index.html', 'w')
-f.write(index)
-f.close()
-
-f = open('html/index.html', 'w')
-f.write(index)
-f.close()
-# == Generated indexes == #
