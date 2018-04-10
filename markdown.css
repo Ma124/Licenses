@@ -197,3 +197,7 @@ li {
 p {
   color: #777;
 }
+
+table {
+    width: 100%;
+}
