@@ -5,6 +5,7 @@
 This repository contains all kinds of original and modified licenses.
 
 ### Licenses
+
 | Apache 2.0 | [TXT](/txt/apache_v2.txt) |  |  |
 | MIT (Expat) | [TXT](/txt/expat.txt) | [HTML](/html/expat.html) | [PAGE](/page/expat.html) |
 | GNU AGPL 3.0 | [TXT](/txt/gnu_agpl_v3.txt) |  |  |
