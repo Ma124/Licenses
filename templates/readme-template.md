@@ -4,6 +4,9 @@
 
 This repository contains all kinds of original and modified licenses.
 
+### Licenses
+$index_items
+
 ### File Structure
 
 | File | Use |

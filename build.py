@@ -24,6 +24,20 @@ f.close()
 f = open('templates/index-item-template.html', 'r')
 tmpl_index_item = Template(f.read())
 f.close()
+
+f = open('templates/readme-template.md', 'r')
+tmpl_readme = Template(f.read())
+f.close()
+
+f = open('templates/readme-index-item.md', 'r')
+tmpl_readme_index_item = Template(f.read())
+f.close()
+
+f = open('templates/readme-index-item-nohtml.md', 'r')
+tmpl_readme_index_item_nohtml = Template(f.read())
+f.close()
+
+
 # == Read templates == #
 
 # == Reading meta & css == #
@@ -60,10 +74,31 @@ for root, subdirs, files in os.walk('html'):
         fo.close()
 # == Generated pages == #
 
+# == Generating readme == #
+index = ''
+
+for root, subdirs, files in os.walk('txt'):
+    for f in files:
+        if not f.endswith('.txt') or f == 'index.txt':
+            continue
+
+        model = dict()
+        id = model['license_id'] = get_name(f)
+        model['license_name'] = meta[id]['name']
+
+        if path.exists('html/' + id + '.html'):
+            index += tmpl_readme_index_item.substitute(model)
+        else:
+            index += tmpl_readme_index_item_nohtml.substitute(model)
+
+f = open('README.md', 'w')
+f.write(tmpl_readme.substitute({'index_items': index}))
+f.close()
+
+# == Generated readme == #
+
 # == Generating indexes == #
-model = dict()
-model['items'] = index
-index = tmpl_index.substitute(model)
+index = tmpl_index.substitute({'items': index})
 
 f = open('page/index.html', 'w')
 f.write(index)
