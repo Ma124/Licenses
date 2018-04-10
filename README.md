@@ -2,7 +2,7 @@
 
 ## A collection of licenses
 
-This is a repository with all kinds of original and modified licenses.
+This repository contains all kinds of original and modified licenses.
 
 ### File Structure
 
