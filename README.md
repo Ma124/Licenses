@@ -1,2 +1,2 @@
-# MIT
-A collection of modified MIT licenses
+# Licenses
+A collection of licenses
