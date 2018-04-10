@@ -91,6 +91,10 @@ for root, subdirs, files in os.walk('txt'):
         else:
             index += tmpl_readme_index_item_nohtml.substitute(model)
 
+index = index.split('\n')
+index.sort()
+index = '\n'.join(index)
+
 f = open('README.md', 'w')
 f.write(tmpl_readme.substitute({'index_items': index}))
 f.close()
