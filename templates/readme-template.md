@@ -7,8 +7,7 @@ This repository contains all kinds of original and modified licenses.
 ### Licenses
 
 | Name | TXT | HTML | PAGE |
-|-----:|:----|:-----|:-----|
-$index_items
+|-----:|:----|:-----|:-----|$index_items
 
 ### File Structure
 
