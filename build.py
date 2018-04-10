@@ -12,6 +12,7 @@ def get_name(p):
     return name
 
 
+# == Reading templates == #
 f = open('templates/page-template.html', 'r')
 tmpl_page = Template(f.read())
 f.close()
@@ -23,7 +24,9 @@ f.close()
 f = open('templates/index-item-template.html', 'r')
 tmpl_index_item = Template(f.read())
 f.close()
+# == Read templates == #
 
+# == Reading meta & css == #
 meta = ConfigParser()
 meta._interpolation = ExtendedInterpolation()
 meta.read('meta.ini')
@@ -31,9 +34,11 @@ meta.read('meta.ini')
 f = open('themes/' + 'default' + '.css')
 style = f.read()
 f.close()
+# == Read meta & css == #
 
 index = ''
 
+# == Generating pages == #
 for root, subdirs, files in os.walk('html'):
     for f in files:
         if not f.endswith('.html') or f == 'index.html':
@@ -53,7 +58,9 @@ for root, subdirs, files in os.walk('html'):
         fo = open('page/' + get_name(f) + '.html', 'w')
         fo.write(tmpl_page.substitute(model))
         fo.close()
+# == Generated pages == #
 
+# == Generating indexes == #
 model = dict()
 model['items'] = index
 index = tmpl_index.substitute(model)
@@ -65,3 +72,4 @@ f.close()
 f = open('html/index.html', 'w')
 f.write(index)
 f.close()
+# == Generated indexes == #
