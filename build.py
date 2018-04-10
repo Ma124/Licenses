@@ -28,6 +28,10 @@ meta = ConfigParser()
 meta._interpolation = ExtendedInterpolation()
 meta.read('meta.ini')
 
+f = open('themes/' + 'default' + '.css')
+style = f.read()
+f.close()
+
 index = ''
 
 for root, subdirs, files in os.walk('html'):
@@ -42,6 +46,7 @@ for root, subdirs, files in os.walk('html'):
 
         id = model['license_id'] = get_name(f)
         model['license_name'] = meta[id]['name']
+        model['style'] = style
 
         index += tmpl_index_item.substitute(model)
 
