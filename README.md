@@ -32,6 +32,6 @@ This repository contains all kinds of original and modified licenses.
 |----------:|:----|
 | `html/` | contains HTML files for the licenses (These aren't full pages they're just a \<small> element) |
 | `page/` | contains HTML documents for the licenses (These are full pages they're a \<html> element) |
-| `templates/` | contains templates ([PEP 292](https://www.python.org/dev/peps/pep-0292/)) (used by `build.py) |
+| `templates/` | contains templates ([PEP 292](https://www.python.org/dev/peps/pep-0292/)) (used by `build.py`) |
 | `themes/` | contains stylesheets that are automatically included in every *page* but it can also manually applied to *html*. |
 | `txt/` | contains the licenses in textual representation |
