@@ -1,3 +1,3 @@
 @echo off
 title SCSS Watcher
-scss -t compressed --watch . --sourcemap=none
+scss --watch . --sourcemap=none

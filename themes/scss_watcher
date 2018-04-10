@@ -1,1 +1,1 @@
-scss -t compressed --watch . --sourcemap=none
+scss --watch . --sourcemap=none
