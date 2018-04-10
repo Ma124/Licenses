@@ -8,7 +8,6 @@ This repository contains all kinds of original and modified licenses.
 
 | Name | TXT | HTML | PAGE |
 |-----:|:----|:-----|:-----|
-
 | Apache 2.0 | [TXT](/txt/apache_v2.txt) |  |  |
 | GNU AGPL 3.0 | [TXT](/txt/gnu_agpl_v3.txt) |  |  |
 | GNU GPL 3.0 | [TXT](/txt/gnu_gpl_v3.txt) |  |  |
