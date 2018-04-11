@@ -10,8 +10,8 @@ There are four important elements that all copyright notices need:
 
 ### &copy; sign
 This is exactly what you expected it to be:
-* (c) (`&copy;` in HTML)
-* (c\)
+* &copy; (`&copy;` in HTML)
+* (c)
 * "Copyright"
 * or a combination of the above
 
