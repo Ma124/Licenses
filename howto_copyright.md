@@ -20,7 +20,7 @@ This is exactly what you expected it to be:
 
 ### Year of publication
 In projects that aren't published in just one year (**blogs**, **software** etc.) you need to specify the first and last year.  
-For software that means the release year of first and last version.  
+For software that means the release year of the first and last version.  
 For blogs the year when the first post was made and the release year of the last post.  
 
 #### Examples:
