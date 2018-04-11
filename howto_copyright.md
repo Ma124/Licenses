@@ -19,11 +19,13 @@ This is exactly what you expected it to be:
 `Copyright (c)`
 
 ### Year of publication
-In projects that aren't published in just one year like (**blogs** and **software**) you need to seperate the start and the end year with a hyphen.
+In projects that aren't published in just one year (**blogs**, **software** etc.) you need to specify the first and last year.  
+For software that means the release year of first and last version.  
+For blogs the year when the first post was made and the release year of the last post.  
 
 #### Examples:
 One year (Photos etc.): `2018`  
-Multiple years (Blogs, Apps): `2005-2018`  
+Multiple years (Blogs, Apps etc.): `2005-2018`  
 
 ### Author
 * your full name
