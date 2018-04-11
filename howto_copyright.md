@@ -22,8 +22,8 @@ This is exactly what you expected it to be:
 In projects that aren't published in just one year like (**blogs** and **software**) you need to seperate the start and the end year with a hyphen.
 
 #### Examples:
-One year (Photos etc.): `2018`
-Multiple years (Blogs, Apps): `2005-2018`
+One year (Photos etc.): `2018`  
+Multiple years (Blogs, Apps): `2005-2018`  
 
 ### Author
 * your full name
@@ -32,9 +32,9 @@ Multiple years (Blogs, Apps): `2005-2018`
 * or a combination of the above
 
 #### Examples:
-`John Smith`
-`johnsmith.com`
-`John Smith, johnsmith.com`
+`John Smith`  
+`johnsmith.com`  
+`John Smith, johnsmith.com`  
 
 ### Rights statement
 * "All rights reserved.": Everyone needs permission from you
@@ -47,7 +47,7 @@ You can:
 * a dot at the end
 
 #### Examples:
-`Copyright (c) 2018 Ma124 All rights reserved.`
-[`Copyright 2018 Ma124, ma124.github.io`](page/expat.html)
-`© 2003-2018 John Smith Some rights reserved`
-`(c) 2018, ma124.github.io`
+`Copyright (c) 2018 Ma124 All rights reserved.`  
+[`Copyright 2018 Ma124, ma124.github.io`](page/expat.html)  
+`© 2003-2018 John Smith Some rights reserved`  
+`(c) 2018, ma124.github.io`  
