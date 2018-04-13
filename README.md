@@ -2,7 +2,8 @@
 
 ## A collection of licenses
 
-This repository contains all kinds of original and modified licenses.
+This repository contains all kinds of original and modified licenses and information about licenses and copyright.
+[How to write a Copyright Notice](howto_copyright.html)
 
 ### Licenses
 
@@ -11,7 +12,7 @@ This repository contains all kinds of original and modified licenses.
 | Apache 2.0 | [TXT](/txt/apache_v2.txt) | [HTML](/html/apache_v2.html) | [PAGE](/page/apache_v2.html) |
 | BSD 2-Clause "Simplified" License | [TXT](/txt/bsd_2_simplified.txt) | [HTML](/html/bsd_2_simplified.html) | [PAGE](/page/bsd_2_simplified.html) |
 | BSD 3-Clause "New" License | [TXT](/txt/bsd_3_new.txt) |  |  |
-| BSD 3-Clause Clear License | [TXT](/txt/bsd_3_clear.txt) |  |  |
+| BSD 3-Clause Clear License | [TXT](/txt/bsd_3_clear.txt) | [HTML](/html/bsd_3_clear.html) | [PAGE](/page/bsd_3_clear.html) |
 | GNU AGPL 3.0 | [TXT](/txt/gnu_agpl_v3.txt) |  |  |
 | GNU GPL 3.0 | [TXT](/txt/gnu_gpl_v3.txt) |  |  |
 | GNU LGPL 3.0 | [TXT](/txt/gnu_lgpl_v3.txt) |  |  |
