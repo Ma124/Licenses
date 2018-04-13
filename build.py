@@ -25,16 +25,16 @@ f = open('templates/index-item-template.html', 'r')
 tmpl_index_item = Template(f.read())
 f.close()
 
-f = open('templates/readme-template.md', 'r')
-tmpl_readme = Template(f.read())
+f = open('templates/frontpage-template.md', 'r')
+tmpl_frontpage = Template(f.read())
 f.close()
 
-f = open('templates/readme-index-item.md', 'r')
-tmpl_readme_index_item = Template(f.read())
+f = open('templates/frontpage-index-item.md', 'r')
+tmpl_frontpage_index_item = Template(f.read())
 f.close()
 
-f = open('templates/readme-index-item-nohtml.md', 'r')
-tmpl_readme_index_item_nohtml = Template(f.read())
+f = open('templates/frontpage-index-item-nohtml.md', 'r')
+tmpl_frontpage_index_item_nohtml = Template(f.read())
 f.close()
 
 
@@ -88,7 +88,7 @@ f.write(index)
 f.close()
 # == Generated indexes == #
 
-# == Generating readme == #
+# == Generating frontpage == #
 index = ''
 
 for root, subdirs, files in os.walk('txt'):
@@ -101,16 +101,16 @@ for root, subdirs, files in os.walk('txt'):
         model['license_name'] = meta[id]['name']
 
         if path.exists('html/' + id + '.html'):
-            index += tmpl_readme_index_item.substitute(model)
+            index += tmpl_frontpage_index_item.substitute(model)
         else:
-            index += tmpl_readme_index_item_nohtml.substitute(model)
+            index += tmpl_frontpage_index_item_nohtml.substitute(model)
 
 index = index.split('\n')
 index.sort()
 index = '\n'.join(index)
 
-f = open('README.md', 'w')
-f.write(tmpl_readme.substitute({'index_items': index}))
+f = open('index.md', 'w')
+f.write(tmpl_frontpage.substitute({'index_items': index}))
 f.close()
 
-# == Generated readme == #
+# == Generated frontpage == #
