@@ -3,7 +3,6 @@
 # [Look at the website](https://ma124.github.io/Licenses)
 
 This repository contains all kinds of original and modified licenses and information about licenses and copyright.
-[How to write a Copyright Notice](howto_copyright.html)
 
 ### File Structure
 
@@ -11,7 +10,7 @@ This repository contains all kinds of original and modified licenses and informa
 |-----:|:----|
 | `.gitignore` | ignores the sass cache in `themes/` |
 | `README.md` | this file |
-| `build.py` | Automatically generates this files, all files in `page/` and index files from the templates in `templates/`. |  
+| `build.py` | Automatically generates the frontpage (`/index.html`), all files in `page/` and index files from the templates in `templates/`. |  
 | `markdown.css` | Stylesheet for this file. ([Air](http://markdowncss.github.io/air/)) (Not shown in GitHub) | 
 | `meta.ini` | Contains metadata about the licenses (used by `build.py`) |
 
