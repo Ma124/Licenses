@@ -2,7 +2,8 @@
 
 ## A collection of licenses
 
-This repository contains all kinds of original and modified licenses and information about licenses and copyright.
+This repository contains all kinds of original and modified licenses and information about licenses and copyright.  
+If you're unsure which license to choose look at [choosealicense.com](https://choosealicense.com/)  
 [How to write a Copyright Notice](howto_copyright.html)
 
 ### Licenses
