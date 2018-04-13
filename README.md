@@ -9,7 +9,7 @@ This repository contains all kinds of original and modified licenses.
 | Name | TXT | HTML | PAGE |
 |-----:|:----|:-----|:-----|
 | Apache 2.0 | [TXT](/txt/apache_v2.txt) | [HTML](/html/apache_v2.html) | [PAGE](/page/apache_v2.html) |
-| BSD 2-Clause "Simplified" License | [TXT](/txt/bsd_2_simplified.txt) |  |  |
+| BSD 2-Clause "Simplified" License | [TXT](/txt/bsd_2_simplified.txt) | [HTML](/html/bsd_2_simplified.html) | [PAGE](/page/bsd_2_simplified.html) |
 | BSD 3-Clause "New" License | [TXT](/txt/bsd_3_new.txt) |  |  |
 | BSD 3-Clause Clear License | [TXT](/txt/bsd_3_clear.txt) |  |  |
 | GNU AGPL 3.0 | [TXT](/txt/gnu_agpl_v3.txt) |  |  |
