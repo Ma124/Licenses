@@ -12,7 +12,7 @@ If you're unsure which license to choose look at [choosealicense.com](https://ch
 |-----:|:----|:-----|:-----|
 | Apache 2.0 | [TXT](/txt/apache_v2.txt) | [HTML](/html/apache_v2.html) | [PAGE](/page/apache_v2.html) |
 | BSD 2-Clause "Simplified" License | [TXT](/txt/bsd_2_simplified.txt) | [HTML](/html/bsd_2_simplified.html) | [PAGE](/page/bsd_2_simplified.html) |
-| BSD 3-Clause "New" License | [TXT](/txt/bsd_3_new.txt) |  |  |
+| BSD 3-Clause "New" License | [TXT](/txt/bsd_3_new.txt) | [HTML](/html/bsd_3_new.html) | [PAGE](/page/bsd_3_new.html) |
 | BSD 3-Clause Clear License | [TXT](/txt/bsd_3_clear.txt) | [HTML](/html/bsd_3_clear.html) | [PAGE](/page/bsd_3_clear.html) |
 | GNU AGPL 3.0 | [TXT](/txt/gnu_agpl_v3.txt) |  |  |
 | GNU GPL 3.0 | [TXT](/txt/gnu_gpl_v3.txt) |  |  |
