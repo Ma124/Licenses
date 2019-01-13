@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="markdown.css">
 
+# Deprecated: Use [`https://ma124.js.org/l/<LICENSE>/<NAME>~<SITE>~<EMAIL>/<YEAR>`](https://ma124.js.org/misc/licenses_about.html)
 # [Look at the website](https://ma124.github.io/Licenses)
 
 This repository contains all kinds of original and modified licenses and information about licenses and copyright.
